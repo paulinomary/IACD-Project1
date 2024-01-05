@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+
+  mongo_container:
+    image: mongo
+    volumes:
+      - mongo_vol:/data/db
+    networks:
+      - net
+
+  back_container:
+    build: ./backend
+    ports:
+      - "80:80"
+    depends_on:
+      - mongo_container
+    networks:
+      - net
+    volumes:
+      - backend_vol:/logs
+    stdin_open: true
+    tty: true
+
+  front_container:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - back_container
+
+volumes:
+  mongo_vol:
+  backend_vol:
+
+networks:
+  net:
