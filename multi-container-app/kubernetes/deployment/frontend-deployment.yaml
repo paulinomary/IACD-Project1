@@ -6,11 +6,11 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: frontend
+      app: iacd-app
   template: 
     metadata:
       labels:
-        app: frontend
+        app: iacd-app
     spec:
       containers:
         - name: frontend-container

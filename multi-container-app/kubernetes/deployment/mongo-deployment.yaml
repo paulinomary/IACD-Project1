@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mongo
+      app: iacd-app
   template: 
     metadata:
       labels:
-        app: mongo
+        app: iacd-app
     spec:
       containers:
         - name: mongo-container
