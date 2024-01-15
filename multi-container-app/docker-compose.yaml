@@ -10,7 +10,7 @@ services:
       - net
 
   back_container:
-    build: ./backend
+    image: paulinomariana/iacd_backend:network
     ports:
       - "80:80"
     depends_on:
@@ -23,7 +23,7 @@ services:
     tty: true
 
   front_container:
-    build: ./frontend
+    image: paulinomariana/iacd_frontend
     ports:
       - "3000:3000"
     depends_on:
