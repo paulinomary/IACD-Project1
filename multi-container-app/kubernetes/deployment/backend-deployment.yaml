@@ -24,3 +24,14 @@ spec:
         - name: backend-persistent-volume
           persistentVolumeClaim:
             claimName: backend-pvc
+
+
+
+
+
+
+
+
+
+
+            

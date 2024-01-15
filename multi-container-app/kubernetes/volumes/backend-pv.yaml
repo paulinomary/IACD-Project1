@@ -12,3 +12,19 @@ spec:
   hostPath:
     path: /data/backend
     type: DirectoryOrCreate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

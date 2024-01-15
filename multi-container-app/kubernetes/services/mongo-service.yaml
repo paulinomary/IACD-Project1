@@ -10,3 +10,18 @@ spec:
     - protocol: TCP
       port: 27017
       targetPort: 27017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      

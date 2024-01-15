@@ -12,3 +12,20 @@ spec:
   hostPath:
     path: /data/mongo
     type: DirectoryOrCreate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

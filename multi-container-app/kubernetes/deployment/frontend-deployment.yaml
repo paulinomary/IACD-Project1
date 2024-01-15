@@ -17,3 +17,18 @@ spec:
           image: paulinomariana/iacd_frontend
           ports:
             - containerPort: 3000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            

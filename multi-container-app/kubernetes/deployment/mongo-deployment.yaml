@@ -24,3 +24,18 @@ spec:
         - name: mongo-persistent-volume
           persistentVolumeClaim:
             claimName: mongo-pvc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
